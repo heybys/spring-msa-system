@@ -4,7 +4,7 @@ API-Gateway Server:
   port: 8090
   
 Auth Server:
-  port: 8090
+  port: 8095
   
 Eureka Server:
   port: 8761
