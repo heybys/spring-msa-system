@@ -15,7 +15,7 @@ import com.msa.productprocess.entity.Product;
 import com.msa.productprocess.service.ProductServiceImpl;
 
 @RestController
-@RequestMapping("/api/product")
+@RequestMapping("")
 public class ProductController {
 
 	@Autowired
