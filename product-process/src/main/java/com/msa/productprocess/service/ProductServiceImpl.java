@@ -52,7 +52,7 @@ public class ProductServiceImpl implements ProductService {
 
 		Optional<Product> curProduct = productRepository.findById(id);
 
-		if (curProduct.isEmpty()) {
+		if (!curProduct.isPresent()) {
 			return Optional.empty();
 		}
 
